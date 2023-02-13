@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">JB</div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#estudios">Estudios</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main" class="main">
+            <div class="info-content">
+                <h1>Mi nombre es <span>José</span> Barreto</h1>
+                <p>Estado civil: Soltero.</p>
+                <p>Estudiante de programacion en Argentina Programa.</p>
+                <a download href="/img/CV José Barreto.pdf"><button id="descargar" onclick="alerta()" class="download-cv">Descargar CV</button></a>
+            </div>
+            <img src="img/fotocv.png" alt="Jose Barreto" onclick="alertafoto()">
+        </main>
+    </div>
+    <div id="about" class="about">
+        <img src="img/Foto paisaje.jpg" alt="Jose Barreto paisaje" onclick="alertafoto()">
+        <div class="about-info">
+            <h2>Acerca de mi</h2>
+            <div class="divider"></div>
+            <p>Tengo 33 años y soy de Córdoba capital.</p>
+            <p>Soy una persona a la cual le interesa estar continuamente aprendiendo y desarrollando nuevas habilidades.</p>
+        </div>
+        <div class="subir"><a href="#wrapper"><button>Inicio</button></a></div>
+    </div>
+    <div id="estudios" class="estudios">
+        <div class="estudio-titulo">
+            <h2>Mis estudios</h2>
+            <div class="divider"></div>  
+        </div>
+        <div class="contenedores">
+        <div class="contenedor">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-titulo">
+                    <h2>Técnico Superior en Emergencias Médicas</h2>
+                </div>
+                <p>2008 - 2010</p>
+                <p>Instituto RET</p>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-titulo">
+                    <h2>Argentina Programa</h2>
+                </div>
+                <p>Aprender a programar</p>
+                <p>Primera Etapa</p>
+            </div>
+        </div>
+        </div>
+        <div class="subir"><a href="#wrapper"><button>Inicio</button></a></div>  
+    </div>
+    <div id="trabajos" class="trabajos">
+        <div class="trabajo-titulo">
+            <h2>Mis trabajos</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="contenedores">
+        <div class="contenedor">
+            <div class="card">
+                <div class="card-img-trabajo"></div>
+                <div class="card-titulo">
+                    <h2>ECCO S.A.</h2>
+                </div>
+                <p>Coordinador de despacho</p>
+                <p>2010 - actualidad</p>
+            </div>
+        </div>
+        </div>
+        <div class="subir"><a href="#wrapper"><button>Inicio</button></a></div>
+    </div>
+    <div id="contacto" class="contacto">
+        <img src="img/contacto.jpg" alt="Jose Barreto contacto" onclick="alertafoto()">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="divider"></div>
+            <ul class="social">
+                <li>Tel: <a href="tel:+">3513068946</a></li>
+                <li>Mail: <a href="mailto:">Barretojantonio@gmail.com</a></li>
+                <li>Dirección: <address>Mza 79 Lote 9 Duplex B - San Ignacio Village de Manantiales - Córdoba</address></li>
+                <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/chichobarreto/"> @Chichobarreto</a></li>
+                <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/joseabarreto/"> JoseABarreto</a></li>
+                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/JAB1990"> JAB1990</a></li>
+                <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/JosEABarreto/"> JosEABarreto</a></li>
+            </ul>    
+        </div>
+        <div class="subir"><a href="#wrapper"><button>Inicio</button></a></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
